@@ -51,3 +51,13 @@ app.listen(port, () => console.log(`QR Generator available. http://localhost:300
 ## Run
 
 `node index.js`
+
+## Usage
+
+Visit http://localhost:3000/randomString to get a base64 QR code that points to: http://localhost:3000/scan/randomString
+
+![base64_u](images/base64_u.png)
+
+Visit http://localhost:3000/randomString/preview to get a QR code that points to: http://localhost:3000/scan/randomString
+
+![base64_u](images/preview_u.png)
